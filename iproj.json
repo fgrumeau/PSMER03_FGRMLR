@@ -1,0 +1,20 @@
+{
+    "description": "Arcad Demo",
+    "version": "0.0.1",
+    "includePath": [
+        "FGRMRL_SRC/QPROTOSRC"
+    ],
+    "repository": "git@github.com:fgrumeau/PSMER03_FGRMLR.git",
+    "objlib": "&verlibfgrmrl",
+    "curlib": "*CRTDFT",
+    "extensions": {
+        "arcad": {
+            "code": "FGRMRL",
+            "libraryPrefix": "FMR",
+            "iasp": "*SYSBAS",
+            "validated": true
+        }
+    },
+    "buildCommand": "elias compile {branch}",
+    "compileCommand": "elias compile {branch} -f {filename}"
+}
