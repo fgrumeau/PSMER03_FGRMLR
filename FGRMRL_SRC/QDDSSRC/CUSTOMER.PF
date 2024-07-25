@@ -21,7 +21,7 @@
                   CULASTORD      8  0       TEXT('Last Order Date')
                                             COLHDG('Last' 'Order' 'Date')
                   CUCREA          L         TEXT('CREATION DATE')
-                                            COLHDG('CREAETION' 'DATE')
+                                            COLHDG('CREATION' 'DATE')
                   CUMOD           Z         TEXT('LAST MODIFICATION')
                                             COLHDG('LAST' 'MODIFICATION')
                   CUMODID       10          TEXT('LAS MOD BY')

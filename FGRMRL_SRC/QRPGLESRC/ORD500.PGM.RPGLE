@@ -55,6 +55,5 @@
         write total;
         write footer;
         close ord500o;
-        path = getParm2('PATH':' ');
         pdfOrd(%trim(%char(orid)):path);
       /end-free
